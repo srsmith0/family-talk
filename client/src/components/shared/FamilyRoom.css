@@ -1,24 +1,23 @@
 .Header {
-  text-align: center;
-  color:red;
-  font-family: "FugazOne"
+	text-align: center;
+	color: red;
+	font-family: "FugazOne";
 }
 
 .Buttons {
-  text-align: center;
-  margin-bottom: 5em;
-  
+	text-align: center;
+	margin-bottom: 5em;
 }
 
 .AddStuff {
-  display: flex;
-  flex-direction: row-reverse;
-  padding-right: 30em;
+	display: flex;
+	flex-direction: row-reverse;
+	padding-right: 30em;
 }
 
 .View {
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
 }

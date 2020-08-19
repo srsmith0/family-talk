@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import styled from 'styled-components'
 import image from '../images/family.jpg'
 import logo from '../images/LogoFiles/ForWeb/medium.png'
 import { Image, Button, Modal } from 'semantic-ui-react';

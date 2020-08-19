@@ -6,7 +6,6 @@ import CreatedPosts from '../user/CreatedPosts';
 import './FamilyRoom.css'
 import { AuthConsumer } from '../../providers/AuthProvider';
 import AddBoard from '../user/AddBoard';
-import plus from '../../images/plus.png'
 
 const Home = (props) => {
  const [view, setView] = useState('Board')
@@ -47,4 +46,4 @@ const ConnectedHome = (props) => {
   )
 }
 
-export default ConnectedHome;
+export default ConnectedHome; 

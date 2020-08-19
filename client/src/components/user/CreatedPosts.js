@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react"
 import {AuthConsumer} from "../../providers/AuthProvider"
 import axios from "axios"
 import Post from "../boardPosts/Post"
-import PostForm from "../boardPosts/PostForm"
 import "./CreatedPost.css"
 
 
@@ -31,7 +30,6 @@ const CreatedPosts = (props) => {
     ))
   }
 
-//  const addPost = (post) => setPosts([post, ...posts])
 
   const updatePost = (id, post) => {
     axios.put(`/api/boards/${post.board_id}/posts/${id}`, post)
@@ -54,12 +52,6 @@ const CreatedPosts = (props) => {
 
   return (
     <>
-      {/* {showForm && <PostForm addPost={addPost} boardId={props.boardId} userId={props.auth.user} />} 
-       <button onClick={() => setShowForm(!showForm)}>
-        {showForm ? "Close Form" : "Add Post"}
-      </button>
-      <br/>
-      <br/> */}
       {renderPosts()}
     </>
   )

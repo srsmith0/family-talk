@@ -1,10 +1,9 @@
 .post {
-  border: 2px solid #dbf9ff;
-  
+	border: 2px solid #dbf9ff;
 }
 
 .description {
-  display:flex;
-  flex-wrap: wrap;
-  width: 20em;
+	display: flex;
+	flex-wrap: wrap;
+	width: 20em;
 }

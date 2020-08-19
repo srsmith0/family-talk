@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
-import BoardForm from "../boards/BoardForm"
 import Board from "../boards/Board"
 import { AuthConsumer } from "../../providers/AuthProvider"
 import "../boards/BoardStyles.css"
@@ -94,13 +93,6 @@ const CreatedBoards = (props) => {
 
   return (
     <>
-    {/* <div className="AddBoard">
-      {showForm && <BoardForm addBoard={addBoard} editBoard={editBoard} toggleForm={setShowForm} />}
-      <br/>
-      <button onClick={() => setShowForm(!showForm)}>
-        {showForm ? "Close Form" : "Add Board"}
-      </button>
-      </div> */}
      
       {renderBoards()}
       {renderFollowedBoards()}

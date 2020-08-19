@@ -14,7 +14,7 @@ const CommentsForm = (props) => {
     } 
   },[])
 
-    
+  
 const handleSubmit = (e) => {
   // e.preventDefault()
   if (props.editComment) {

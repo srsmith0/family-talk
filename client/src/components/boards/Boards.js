@@ -64,7 +64,6 @@ const Boards = (props) => {
         setBoards(updateBoard) 
       })
   }
-
   return (
     <>
       {showForm && <BoardForm addBoard={addBoard} toggleForm={setShowForm} />}
